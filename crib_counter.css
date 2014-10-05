@@ -1,0 +1,37 @@
+/* blow up size of text */
+body {
+	font-size: 4em;
+}
+button, input {
+	font-size: .8em;
+}
+input {
+	width: 4em;
+}
+/* color */
+#p1, #p1 button {
+	color: red;
+}
+#p2, #p2 button {
+	color: green;
+}
+#p3, #p3 button {
+	color: blue;
+}
+#p4, #p4 button {
+	color: darkgoldenrod;
+}
+/* grid using table shit */
+.players {
+	display: table;
+}
+.player {
+	display: table-row;
+}
+.player > * {
+	display: table-cell;
+}
+.score {
+	padding-left: .5em;
+	padding-right: .5em;
+}

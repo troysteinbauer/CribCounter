@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Crib Counter</title>
+        <link type="text/css" rel="stylesheet" href="crib_counter.css"/>
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="crib_counter.js"></script>
+    </head>
+    <body>
+        <div id="players">
+            <div id="p1" class="player">
+                <span class="name">Player 1</span>
+                <span class="score">0</span>
+                <button class="score_button" data-value="1" data-negative="false">+1</button>
+                <button class="score_button" data-value="2" data-negative="false">+2</button>
+                <button class="score_button" data-value="5" data-negative="false">+5</button>
+                <button class="score_button" data-value="1" data-negative="true">-1</button>
+            </div>
+            <div id="p2" class="player">
+                <span class="name">Player 2</span>
+                <span class="score">0</span>
+                <button class="score_button" data-value="1" data-negative="false">+1</button>
+                <button class="score_button" data-value="2" data-negative="false">+2</button>
+                <button class="score_button" data-value="5" data-negative="false">+5</button>
+                <button class="score_button" data-value="1" data-negative="true">-1</button>
+            </div>
+            <div id="p3" class="player">
+                <span class="name">Player 3</span>
+                <span class="score">0</span>
+                <button class="score_button" data-value="1" data-negative="false">+1</button>
+                <button class="score_button" data-value="2" data-negative="false">+2</button>
+                <button class="score_button" data-value="5" data-negative="false">+5</button>
+                <button class="score_button" data-value="1" data-negative="true">-1</button>
+            </div>
+            <div id="p4" class="player">
+                <span class="name">Player 4</span>
+                <span class="score">0</span>
+                <button class="score_button" data-value="1" data-negative="false">+1</button>
+                <button class="score_button" data-value="2" data-negative="false">+2</button>
+                <button class="score_button" data-value="5" data-negative="false">+5</button>
+                <button class="score_button" data-value="1" data-negative="true">-1</button>
+            </div>
+        </div>
+        <!--
+        <div class="history">
+            <div class="history_entry">
+                <span class="history_entry_name">Player 1</span>
+                <span class="history_entry_value">+6</span>
+            </div>
+        </div>
+        -->
+        <div class="controls">
+            <button id="edit_names">Edit Names</button>
+            <button id="reset">Reset</button>
+        </div>
+    </body>
+</html>
